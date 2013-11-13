@@ -1,4 +1,4 @@
-require_relative '../is_between'
+require './is_between'
 
 describe Integer, "#is_between?" do
 

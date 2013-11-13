@@ -1,4 +1,4 @@
-require_relative '../dice'
+require './dice'
 
 describe Dice, "#roll" do
 

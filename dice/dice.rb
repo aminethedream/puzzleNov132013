@@ -5,8 +5,14 @@
 
 class Dice
 
-  def roll
+ def roll 
     # code goes here
-  end
+    #(0..6).to_a.sample
+     #1 + rand(6)
+    Random.new.rand(1..6)
+    #integer = Random.new(1..6)
+    #Random.new(1..6)
+ end
+
 
 end
